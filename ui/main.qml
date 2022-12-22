@@ -11,6 +11,8 @@ ApplicationWindow {
     title: "HelloApp"
     color: "black"
 
+    property var macos_mojave_old_version: true
+
     background: BorderImage {
         source: "PIA25675.jpg"
         border { left: 20; top: 20; right: 20; bottom: 20 }
@@ -44,6 +46,7 @@ ApplicationWindow {
                 color: "#738fa7"
             }
         }
+
         ColumnLayout {
             id: column2
 
@@ -58,18 +61,15 @@ ApplicationWindow {
                 opacity: 0.4
                 color: "#1e2640"
             }
-            CustomPlot {
+
+            Loader {
+               id: myLoader
                 Layout.fillWidth: true
                 Layout.fillHeight: true
+                source: macos_mojave_old_version ? "PlaceHolder.qml" : "CustomPlot.qml"
             }
-
-//            Rectangle {
-//                Layout.fillWidth: true
-//                Layout.fillHeight: true
-//                opacity: 0.4
-//                color: "#f3eac0"
-//            }
         }
+
         ColumnLayout {
             id: column3
             Rectangle {

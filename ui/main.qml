@@ -31,12 +31,10 @@ ApplicationWindow {
                 Layout.fillWidth: true
                 Layout.fillHeight: true
             }
-
-            Rectangle {
+            SectorThree {
+                id: sectorThree
                 Layout.fillWidth: true
                 Layout.fillHeight: true
-                opacity: 0.4
-                color: "#0c4160"
             }
 
             Rectangle {

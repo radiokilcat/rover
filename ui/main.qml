@@ -3,6 +3,7 @@ import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.1
 import QtQuick.Window 2.2
 
+
 ApplicationWindow {
     id: mainWindow
     visible: true
@@ -23,12 +24,12 @@ ApplicationWindow {
             id: column1
             Layout.maximumWidth: parent.width / 3
 
-            Rectangle {
+            SectorOne {
+                id: sectorOne
                 Layout.fillWidth: true
                 Layout.fillHeight: true
-                opacity: 0.4
-                color: "#071330"
             }
+
             Rectangle {
                 Layout.fillWidth: true
                 Layout.fillHeight: true

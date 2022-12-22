@@ -31,7 +31,7 @@ Item {
                 Label {
                     Layout.preferredWidth: comp.width / 2
                     horizontalAlignment: Text.AlignHCenter
-                    text: "-4"
+                    text: "Minimal"
                     color: "white"
                     font.pixelSize: 22
                     font.family: localFont.name
@@ -50,7 +50,7 @@ Item {
                 Label {
                     Layout.preferredWidth: comp.width / 2
                     horizontalAlignment: Text.AlignHCenter
-                    text: "Minimal"
+                    text: "Maximum"
                     color: "white"
                     font.pixelSize: 22
                     font.family: localFont.name
@@ -59,7 +59,7 @@ Item {
                 Label {
                     Layout.preferredWidth: comp.width / 2
                     horizontalAlignment: Text.AlignHCenter
-                    text: "Maximum"
+                    text: "+90"
                     color: "white"
                     font.pixelSize: 22
                     font.family: localFont.name

@@ -1,12 +1,17 @@
 <RCC>
     <qresource prefix="/">
-        <file>ui/SectorOne.qml</file>
         <file>ui/main.qml</file>
+        <file>ui/SectorOne.qml</file>
+        <file>ui/SectorTwo.qml</file>
+        <file>ui/SectorNine.qml</file>
+        <file>ui/CustomPlot.qml</file>
     </qresource>
     <qresource prefix="/fonts">
         <file alias="IBMPlexMono-Regular.ttf">ui/fonts/IBMPlexMono-Regular.ttf</file>
     </qresource>
     <qresource prefix="/img">
         <file alias="PIA25675.jpg">ui/PIA25675.jpg</file>
+        <file alias="map.png">ui/map.png</file>
+        <file alias="selfie.png">ui/selfie.png</file>
     </qresource>
 </RCC>

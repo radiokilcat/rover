@@ -14,6 +14,7 @@ Item {
     ChartView {
         id: chartView
         anchors.fill: parent
+        theme: ChartView.ChartThemeDark
 
         ValueAxis {
             id: axisX

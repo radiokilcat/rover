@@ -11,7 +11,7 @@ ApplicationWindow {
     title: "HelloApp"
     color: "black"
 
-    property var macos_mojave_old_version: true
+    property var macos_mojave_old_version: false
 
     background: BorderImage {
         source: "PIA25675.jpg"

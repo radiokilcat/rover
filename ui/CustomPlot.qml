@@ -15,6 +15,8 @@ Item {
         id: chartView
         anchors.fill: parent
         theme: ChartView.ChartThemeDark
+//        backgroundColor:
+        opacity: 0.8
 
         ValueAxis {
             id: axisX

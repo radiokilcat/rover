@@ -71,10 +71,16 @@ Item {
             }
 
            Gauge {
+                Layout.fillWidth: true
+                Layout.alignment: Qt.AlignBottom
+                Layout.bottomMargin: 20
+
+
                 minimumValue: 0
                 value: 50
                 maximumValue: 100
                 orientation: Qt.Horizontal
+                tickmarkStepSize: 20
            }
     }
 }
